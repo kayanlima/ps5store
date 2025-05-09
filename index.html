@@ -1,39 +1,208 @@
-<section class="section">
-  <div class="section-text">
-    <h2>Jogos Impressionantes no PS5</h2>
-    <p>Mergulhe em mundos com visuais e sons incríveis, aproveitando a potência da nova geração. Títulos exclusivos e retrocompatibilidade com PS4 tornam o PS5 o centro da sua diversão.</p>
-  </div>
-  <img src="images/IMG_7625.jpeg" alt="Jogos impressionantes no PS5">
-</section>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlayStation 5 - Edição Limitada com Jogos Exclusivos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --azul-escuro: #002D74;
+      --azul-medio: #0045A0;
+      --azul-claro: #0070d1;
+      --azul-hover: #005da8;
+      --cinza-claro: #f4f4f4;
+      --cinza-medio: #eaeaea;
+      --cinza-texto: #555555;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--cinza-claro);
+      color: #1c1c1c;
+    }
+    header {
+      background-color: var(--azul-escuro);
+      text-align: center;
+      padding: 2rem 1rem;
+      color: white;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #ffffff;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      color: #d3e4ff;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .section {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 3rem;
+      flex-wrap: wrap;
+    }
+    .section.reverse {
+      flex-direction: row-reverse;
+    }
+    .section img {
+      width: 100%;
+      max-width: 540px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    }
+    .section-text {
+      flex: 1;
+    }
+    .section-text h2 {
+      font-size: 2rem;
+      color: var(--azul-medio);
+      margin-bottom: 1rem;
+    }
+    .section-text p {
+      font-size: 1.1rem;
+      color: #333333;
+      line-height: 1.6;
+    }
+    .price-box {
+      background-color: var(--cinza-medio);
+      padding: 1.5rem;
+      text-align: center;
+      border-radius: 10px;
+      margin: 3rem 0;
+    }
+    .price-box .old-price {
+      text-decoration: line-through;
+      color: #888888;
+      font-size: 1.2rem;
+    }
+    .price-box .new-price {
+      font-size: 2.2rem;
+      color: #000000;
+      font-weight: bold;
+    }
+    .price-box .installments {
+      font-size: 1.1rem;
+      color: #444444;
+    }
+    .buy-button {
+      display: inline-block;
+      padding: 1rem 2.5rem;
+      font-size: 1.2rem;
+      background-color: var(--azul-claro);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s;
+      margin-top: 1.5rem;
+    }
+    .buy-button:hover {
+      background-color: var(--azul-hover);
+    }
+    .whatsapp-button {
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 1rem;
+      padding: 0.8rem 2rem;
+      background-color: #25D366;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+    .games-gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .games-gallery img {
+      width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+    footer {
+      background-color: var(--cinza-claro);
+      color: #666;
+      text-align: center;
+      padding: 1.2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PlayStation®5 - Experiência Definitiva</h1>
+    <p>Sinta a nova era dos games com velocidade, imersão e jogos impressionantes.</p>
+  </header>
 
-<section class="section reverse">
-  <div class="section-text">
-    <h2>Centenas de Jogos Sob Demanda</h2>
-    <p>Com o PlayStation Plus, você tem acesso imediato a uma biblioteca vasta de títulos para PS5 e PS4. Jogue grandes sucessos, indies premiados e clássicos a qualquer momento.</p>
-  </div>
-  <img src="images/IMG_7626.jpeg" alt="PlayStation Plus catálogo">
-</section>
+  <div class="container">
+    <section class="section">
+      <div class="section-text">
+        <h2>Jogos Impressionantes no PS5</h2>
+        <p>Mergulhe em mundos com visuais e sons incríveis, aproveitando a potência da nova geração. Títulos exclusivos e retrocompatibilidade com PS4 tornam o PS5 o centro da sua diversão.</p>
+      </div>
+      <img src="images/IMG_7625.jpeg" alt="Jogos impressionantes no PS5">
+    </section>
 
-<section class="section">
-  <div class="section-text">
-    <h2>Desempenho de Última Geração</h2>
-    <p>Com SSD ultrarrápido e arquitetura personalizada, o PS5 reduz drasticamente os tempos de carregamento e oferece experiências fluidas com gráficos de ponta.</p>
-  </div>
-  <img src="images/IMG_7627.jpeg" alt="Desempenho avançado">
-</section>
+    <section class="section reverse">
+      <div class="section-text">
+        <h2>Centenas de Jogos Sob Demanda</h2>
+        <p>Com o PlayStation Plus, você tem acesso imediato a uma biblioteca vasta de títulos para PS5 e PS4. Jogue grandes sucessos, indies premiados e clássicos a qualquer momento.</p>
+      </div>
+      <img src="images/IMG_7626.jpeg" alt="PlayStation Plus catálogo">
+    </section>
 
-<section class="section reverse">
-  <div class="section-text">
-    <h2>Inclui Returnal e Ratchet & Clank</h2>
-    <p>Dois grandes jogos já inclusos nesta edição especial. Desafie-se em Returnal ou divirta-se com a aventura interdimensional de Ratchet & Clank.</p>
-  </div>
-  <img src="images/IMG_7628.jpeg" alt="Jogos inclusos">
-</section>
+    <section class="section">
+      <div class="section-text">
+        <h2>Desempenho de Última Geração</h2>
+        <p>Com SSD ultrarrápido e arquitetura personalizada, o PS5 reduz drasticamente os tempos de carregamento e oferece experiências fluidas com gráficos de ponta.</p>
+      </div>
+      <img src="images/IMG_7627.jpeg" alt="Desempenho avançado">
+    </section>
 
-<div class="games-gallery">
-  <img src="images/IMG_7628.jpeg" alt="Imagem Ratchet & Clank">
-  <img src="images/IMG_7629.jpeg" alt="Imagem Returnal">
-  <img src="images/IMG_7627.jpeg" alt="Capa Ratchet & Clank">
-  <img src="images/IMG_7626.jpeg" alt="Capa Returnal">
-</div>
+    <section class="section reverse">
+      <div class="section-text">
+        <h2>Inclui Returnal e Ratchet & Clank</h2>
+        <p>Dois grandes jogos já inclusos nesta edição especial. Desafie-se em Returnal ou divirta-se com a aventura interdimensional de Ratchet & Clank.</p>
+      </div>
+      <img src="images/IMG_7628.jpeg" alt="Jogos inclusos">
+    </section>
+
+    <div class="price-box">
+      <div class="old-price">De R$ 3.799,00</div>
+      <div class="new-price">Por R$ 3.489,00</div>
+      <div class="installments">ou em até 12x de R$ 290,75</div>
+      <a href="https://s.shopee.com.br/50MM275far" class="buy-button" target="_blank">COMPRAR AGORA</a>
+      <br>
+      <a href="https://wa.me/5583996482876" class="whatsapp-button" target="_blank">Fale no WhatsApp</a>
+    </div>
+
+    <div class="games-gallery">
+      <img src="images/IMG_7628.jpeg" alt="Imagem Ratchet & Clank">
+      <img src="images/IMG_7629.jpeg" alt="Imagem Returnal">
+      <img src="images/IMG_7627.jpeg" alt="Capa Ratchet & Clank">
+      <img src="images/IMG_7626.jpeg" alt="Capa Returnal">
+    </div>
+  </div>
+
+  <footer>
+    © 2025 - Oferta por tempo limitado. Todos os direitos reservados à Sony Interactive Entertainment.
+  </footer>
+</body>
+</html>
 
